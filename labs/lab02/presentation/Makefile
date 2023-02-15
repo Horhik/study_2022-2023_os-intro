@@ -12,7 +12,8 @@ FILTERS += --citeproc
 PDF_ENGINE += --pdf-engine=lualatex
 PDF_OPTIONS += --number-sections
 
-REVEALJS_THEME = beige
+REVEALJS_THEME = moon
+#REVEALJS_THEME = beige
 
 %.pdf: %.md
 	-@pandoc "$<" $(FILTERS) $(PDF_ENGINE) $(PDF_OPTIONS) $(PDF_FORMAT_OPTIONS) -o "$@"
