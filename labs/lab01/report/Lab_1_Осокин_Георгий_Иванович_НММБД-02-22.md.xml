@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexing>
+ <object alt="" name="Image1" object_type="graphic"/>
+ <object alt="" name="Image3" object_type="graphic"/>
+ <object alt="" name="Image2" object_type="graphic"/>
+ <object alt="" name="Image4" object_type="graphic"/>
+ <object alt="" name="Image5" object_type="graphic"/>
+ <object alt="" name="Image6" object_type="graphic"/>
+ <object alt="" name="Image7" object_type="graphic"/>
+ <object alt="" name="Image8" object_type="graphic"/>
+ <object alt="" name="Image10" object_type="graphic"/>
+ <object alt="Fedora_logo.svg | Jokko Pro" name="Image11" object_type="graphic"/>
+ <object alt="" name="Image9" object_type="graphic"/>
+ <object alt="" name="Image12" object_type="graphic"/>
+ <object alt="" name="Image13" object_type="graphic"/>
+ <object alt="" name="Image14" object_type="graphic"/>
+ <object alt="" name="Image15" object_type="graphic"/>
+ <object alt="" name="Image16" object_type="graphic"/>
+ <object alt="" name="Image17" object_type="graphic"/>
+ <object alt="" name="Image18" object_type="graphic"/>
+ <object alt="" name="Image19" object_type="graphic"/>
+ <object alt="" name="Image20" object_type="graphic"/>
+ <object alt="" name="Image21" object_type="graphic"/>
+ <object alt="" name="Image22" object_type="graphic"/>
+ <object alt="" name="Image23" object_type="graphic"/>
+ <object alt="" name="Image26" object_type="graphic"/>
+ <object alt="" name="Image24" object_type="graphic"/>
+ <object alt="" name="Image25" object_type="graphic"/>
+ <object alt="" name="Image27" object_type="graphic"/>
+ <object alt="" name="Image28" object_type="graphic"/>
+ <object alt="" name="Image29" object_type="graphic"/>
+ <paragraph index="96" node_type="writer">Лабораторная работа №1. </paragraph>
+ <paragraph index="97" node_type="writer">Установка и конфигурация операционной системы на виртуальную машину.</paragraph>
+ <paragraph index="121" node_type="writer">Осокин Георгий Иванович. НММбд-02-22</paragraph>
+ <paragraph index="133" node_type="writer">Цели работы:</paragraph>
+ <paragraph index="134" node_type="writer">1. Приобрести практические навыки установки операционных систем на виртуальные машины.</paragraph>
+ <paragraph index="135" node_type="writer">2. Ознакомиться с операционной системой  GNU/Linux</paragraph>
+ <paragraph index="136" node_type="writer">3. Установить дистрибутив Fedora ОС GNU/Linux</paragraph>
+ <paragraph index="137" node_type="writer">4. Ознакомиться с командной строкой OC Linux</paragraph>
+ <paragraph index="145" node_type="writer">Описание выполнения лабораторной работы.</paragraph>
+ <paragraph index="146" node_type="writer">1. Настройка виртуальной машины для установки ОС Linux</paragraph>
+ <paragraph index="147" node_type="writer">1.1 Скачаем и запустим программу VirtualBox</paragraph>
+ <paragraph index="148" node_type="writer">1.2 Настроим Virtual Box </paragraph>
+ <paragraph index="149" node_type="writer">Я изменил Папку для виртуальных машин на /home/horhik/VirtualBox_Vms, так как лабораторная работа проводится на моем личном ноутбуке.
+</paragraph>
+ <paragraph index="153" node_type="writer">1.3 Настройка новой виртуальной машины</paragraph>
+ <paragraph index="154" node_type="writer">	 </paragraph>
+ <paragraph index="155" node_type="writer">Назовем виртуальную машину Linux_on_VM_lab</paragraph>
+ <paragraph index="156" node_type="writer">Изменим тип виртуальной машины на Linux и версию на Fedora (64-bit) (так как будем устанавливать 64х битную версию дистрибутива Fedora)</paragraph>
+ <paragraph index="165" node_type="writer">1.3.1 Установим объем оперативной памяти для VM</paragraph>
+ <paragraph index="180" node_type="writer">1.3.2 Создадим виртуальный жесткий диск</paragraph>
+ <paragraph index="181" node_type="writer"> </paragraph>
+ <paragraph index="182" node_type="writer">    </paragraph>
+ <paragraph index="183" node_type="writer">	</paragraph>
+ <paragraph index="188" node_type="writer">На официальном сайте Fedora указан минимальный объем жесткого диска в 20GB, 	поэтому выделяем именно столько места.</paragraph>
+ <paragraph index="195" node_type="writer">1.3.3 Увеличим объем видеопамяти в настройках созданной виртуальной машины</paragraph>
+ <paragraph index="197" node_type="writer">
+Установим размер памяти в 128 MB</paragraph>
+ <paragraph index="198" node_type="writer">																												</paragraph>
+ <paragraph index="205" node_type="writer">1.3.4 Установим в «Носители» образ оптического диска с Fedora</paragraph>
+ <paragraph index="206" node_type="writer">Образ был скачан с официального сайта Fedora (https://getfedora.org)</paragraph>
+ <paragraph index="209" node_type="writer">Теперь наша виртуальная машина при запуске будет загружать систему с ОД, так как он стоит выше в приоритете.</paragraph>
+ <paragraph index="214" node_type="writer">2. Установка Дистрибутива Fedora  </paragraph>
+ <paragraph index="215" node_type="writer">Запустим виртуальую машину. Она начнет грузиться с оптического диска. </paragraph>
+ <paragraph index="216" node_type="writer"> </paragraph>
+ <paragraph index="217" node_type="writer">Перед нами окно загрузчика GRUB (GRand Unified Bootloader). Выберем пункт «Start Fedora-Workstation-Live 36»</paragraph>
+ <paragraph index="224" node_type="writer">После загрузки ОС, перед нами открывается Десктопная среда (DE) GNOME 42 и окно предлагающее запустить установщик</paragraph>
+ <paragraph index="225" node_type="writer"> </paragraph>
+ <paragraph index="240" node_type="writer">При открытии установщика, нам предлагают выбрать язык. </paragraph>
+ <paragraph index="241" node_type="writer"> Для удобства дальнейшего использования, поставим английский (т.к., например, название папок в домашней директории на кириллице иногда сильно мешает, да и информации об, например, ошибках, которые командная строка, в дальнейшем будет выводить на экран, на английском намного больше чем на русском)</paragraph>
+ <paragraph index="255" node_type="writer">Установим таймзону на Europe/Moscow</paragraph>
+ <paragraph index="256" node_type="writer"> </paragraph>
+ <paragraph index="257" node_type="writer">Выберем диск, на который будем устанавливать Fedora																																Нам предложен на выбор единственный диск — тот виртуальный винчестер размером 20GB, который мы создали при первичной настройке VM</paragraph>
+ <paragraph index="259" node_type="writer">Так как мы устанавливаем ОС не на настоящий компьютер, и нам не нужно ставить ее параллельно с другой системой или волноваться за потерю данных, то можно ни о чем не волноваться и доверить всю разбивку диска установщику. </paragraph>
+ <paragraph index="261" node_type="writer">В противном случае нам бы пришлось разметить диск на три раздела (boot, swap и раздел для  самой системы) и указать загрузчику, какие из них отформатировать в нужные файловые системы.</paragraph>
+ <paragraph index="266" node_type="writer">Завершение установки</paragraph>
+ <paragraph index="267" node_type="writer">Далее остается только нажать «Begin Installation» и ждать, пока установщик делает всю работу за нас. </paragraph>
+ <paragraph index="268" node_type="writer"> </paragraph>
+ <paragraph index="270" node_type="writer">Выключим виртуальную машину и уберем образ диска Fedora из списка носителей. </paragraph>
+ <paragraph index="273" node_type="writer">Теперь система готова к дальнейшему использованию. Перейдем к выполнению заданий.</paragraph>
+ <paragraph index="275" node_type="writer">Задания для самостоятельной работы</paragraph>
+ <paragraph index="280" node_type="writer">1. Запустить установленную в VirtualBox ОС</paragraph>
+ <paragraph index="281" node_type="writer">Запустим виртуальную машину. Загружается Fedora и нас встречает окно приветствия</paragraph>
+ <paragraph index="283" node_type="writer"> </paragraph>
+ <paragraph index="287" node_type="writer">В нем система нас просит создать пользователя. </paragraph>
+ <paragraph index="288" node_type="writer">Назовем пользователя student и установим пароль. </paragraph>
+ <paragraph index="289" node_type="writer">	</paragraph>
+ <paragraph index="290" node_type="writer">Теперь система окончательно готова к использованию</paragraph>
+ <paragraph index="292" node_type="writer">2. Запустить Firefox и любой текстовый процессор, текстовый редактор </paragraph>
+ <paragraph index="293" node_type="writer">Нажмем кнопку Super (Win) и начнем печатать Firefox. На экране остается соответствующий ярлык. Запустим. Открывается Firefox. Браузер работает.</paragraph>
+ <paragraph index="294" node_type="writer">Откроем текстовый процессор LibreOffice и через терминал откроем текстовый редактор VIM. Напишем в каждом из них по предложению. </paragraph>
+ <paragraph index="296" node_type="writer">3. Запустить терминал</paragraph>
+ <paragraph index="298" node_type="writer">Наберем в поиске Terminal и откроем его.</paragraph>
+ <paragraph index="299" node_type="writer">Напишем в консоль echo «Hello GNU/Linux!», что бы вывести введеный текст.</paragraph>
+ <paragraph index="305" node_type="writer">4. Установить основное программное обеспечение необходимое для дальнейшей работы.</paragraph>
+ <paragraph index="306" node_type="writer">Откроем консоль и напишем в ней sudo dnf update  &amp;&amp; sudo dnf install -y mc git nasm</paragraph>
+ <paragraph index="309" node_type="writer">Ключевое слово sudo пишется, что бы выполнить команды от имени коренного пользователя.</paragraph>
+ <paragraph index="310" node_type="writer">Данный набор команд обновит репозитории (что бы пакетный менеджер dnf скачивал последние версии запрашиваемых программ. (dnf update) </paragraph>
+ <paragraph index="311" node_type="writer">Оператор  &amp;&amp; выполняет последующую команду справа от него, если команда слева выполнилась успешно.</paragraph>
+ <paragraph index="312" node_type="writer">Команда dnf install -y mc git nasm скачивает пакеты mc, git, nasm и при этом отвечает y(es) на все вопросы, которые требуют ввода пользователя в процессе установки. </paragraph>
+ <paragraph index="314" node_type="writer">4.1. Midninght Commander</paragraph>
+ <paragraph index="315" node_type="writer">Откроем консоль и запустим комманду mc.</paragraph>
+ <paragraph index="316" node_type="writer">Откроется консольный файловый менеджер Midnight Commander в домашней директории </paragraph>
+ <paragraph index="318" node_type="writer">Зайдем в папку ./Documents и создадим в ней папку George, нажав F7</paragraph>
+ <paragraph index="319" node_type="writer">Папка создана. Выйдем из  MC, нажав F10.</paragraph>
+ <paragraph index="321" node_type="writer">Выводы:</paragraph>
+ <paragraph index="323" node_type="writer">В ходе лабораторной работы мы ознакомились с настройкой виртуальной машины и установкой на нее дистрибутива GNU/Linux</paragraph>
+ <paragraph index="325" node_type="writer">Как оказалось установить дистрибутив Fedora довольно не сложно. Но это и есть одна из заслуг данного дистрибутива. Благодаря автоматическому установщику, нам пришлось поделать необходимый минимум операций, которые может проделать любой пользователь. </paragraph>
+ <paragraph index="327" node_type="writer">Если бы мы решили установить Gentoo, Archlinux, NixOS или какую-нибудь другую систему из всего множества дистрибутивов GNU/Linux, то нам пришлось бы более точечно работать над процессом установки, который был бы уже не под силу рядовому пользователю ПК. </paragraph>
+ <paragraph index="329" node_type="writer">И это один из плюсов систем GNU/Linux — наличие альтернатив. При выборе дистрибутива у нас есть возможность установить систему со всеми предустановленными программами и потратить минимум времени на первоначальную настройку, либо же можно выбрать более легковесный дистрибутив, в котором нет сотен программ по умолчанию, и который, при грамотной настройке, будет быстро работать даже на компьютерах 10-20 летней давности. </paragraph>
+ <paragraph index="331" node_type="writer">Также терминал и саму коммандную строку в линуксе очень сложно переоценить. Она позволяет автоматизировать множество процессов и сильно ускорить процесс взаимодействия с операционной системой. </paragraph>
+ <paragraph index="332" node_type="writer">Например в Windows, что бы обновиться и установить три программы, нам бы пришлось для начала переждать долгий процесс обновления, потом найти нужные программы на их официальных сайтах и скачать, а после приступить отдельно к установке каждой программы. </paragraph>
+ <paragraph index="333" node_type="writer">Наличие пакетного менеджера (в случае Fedora — dnf) позволяет избежать данных неудобств.</paragraph>
+</indexing>
