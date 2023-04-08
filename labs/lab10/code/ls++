@@ -1,0 +1,21 @@
+#!/bin/sh
+
+  if !(($#))
+  then
+    echo $(./*)
+  fi
+
+  ar=($1*)
+  for (( i=0; i< ${#ar[*]}; i++ ))
+  do
+    file=${ar[$i]}
+    echo -n $file 
+    if (( $fl_p )); then
+    echo  $(stat -c %A $file)
+    fi
+
+
+    echo ""
+
+  done
+
